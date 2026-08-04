@@ -1,21 +1,20 @@
 client.user.setPresence({
-  status: "dnd", // online, idle, dnd, invisible
+  status: "online", // online, idle, dnd, invisible
 });
 
-client.user.setActivity("with code", {
+client.user.setActivity("Pac Mean?", {
   type: "PLAYING", // Can also be STREAMING, LISTENING, WATCHING, COMPETING
 });
 
-client.user.setActivity("the community", {
+client.user.setActivity("Hardstuck info", {
   type: "WATCHING",
 });
 
-client.user.setActivity("lofi beats", {
+client.user.setActivity("custom Non-Player Character", {
   type: "LISTENING",
 });
 
-client.user.setActivity("My Live Stream", {
+client.user.setActivity("Pac Mean?", {
   type: "STREAMING",
-  url: "https://twitch.tv/some_channel", // Needs to be a valid streaming URL
+  url: "https://www.youtube.com/live/WlgeUXlOMTc?si=ayq_XMB8y8O5ytnX", // Needs to be a valid streaming URL
 });
-
