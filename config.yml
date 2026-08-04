@@ -1,30 +1,30 @@
 # Replace with your Discord Application ID
-application_id: "1311204057490259979"
+application_id: "1515613131919986688"
 
 # Activity type: 0 = Playing, 1 = Streaming, 2 = Listening, 3 = Watching
-type: 3
+type: 0
 
 # Activity Details
-name: "Youtube"
-details: "Watching Nexos Labs"
-state: "Subscribe"
+name: "Pac Mean?"
+details: "custom Non-Player Character"
+state: "Hardstuck info"
 
 # Activity Images
-largeImageKey: "1377844502521446490"
-largeImageText: "Watching Nexos Labs"
-smallImageKey: "1377845999464087653"
-smallImageText: "Subscribe"
+largeImageKey: "mp:external/https%3A%2F%2Fi.pinimg.com%2F736x%2F3b%2Fba%2Ff1%2F3bbaf16f3ca53bd03e39e73a2baf00ce.jpg"
+largeImageText: "How?"
+smallImageKey: ""
+smallImageText: ""
 
 # Activity URL (optional, works only with certain types)
-url: "https://www.youtube.com/@nexoscreator"
+url: "https://www.youtube.com/live/WlgeUXlOMTc?si=ayq_XMB8y8O5ytnX"
 
 # Activity Buttons (optional)
 buttons:
-  - name: "Visit Website"
-    url: "https://www.nexoscreator.tech"
-  - name: "GitHub Repo"
-    url: "https://github.com/nexoslabs/discord-24-7-rich-presence"
+  - name: "My site"
+    url: "https://ftap-com.vercel.app/"
+  - name: "pls click to now"
+    url: "https://i.pinimg.com/736x/22/32/ef/2232ef531384abba38738724976e1b6f.jpg"
 
 # Activity Custom status
-custom_status: "Watching tutorials"
-custom_emoji: "🔥"
+custom_status: "Hardstuck info"
+custom_emoji: "🎮"
