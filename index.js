@@ -15,8 +15,8 @@ const client = new Client();
  * Create custom status
  */
 const customStatus = new CustomStatus(client, {
-  state: config.custom_status || "🔥 Watching tutorials",
-  emoji: config.custom_emoji ? { name: config.custom_emoji } : undefined,
+  state: config.custom_status || "Hardstuck info",
+  emoji: config.custom_emoji ? { name: config.custom_emoji } : { name: "🎮" },
 });
 
 /**
@@ -25,9 +25,9 @@ const customStatus = new CustomStatus(client, {
 const rich = new RichPresence(client)
   .setApplicationId(config.application_id)
   .setType(config.type || 0) // 0 = Playing, 1 = Streaming, 2 = Listening, 3 = Watching
-  .setName(config.name || "My Cool Presence")
-  .setDetails(config.details || "No details set")
-  .setState(config.state || "Available")
+  .setName(config.name || "Pac Mean?")
+  .setDetails(config.details || "custom Non-Player Character")
+  .setState(config.state || "Hardstuck info")
   .setAssetsLargeImage(config.largeImageKey || null)
   .setAssetsLargeText(config.largeImageText || "")
   .setAssetsSmallImage(config.smallImageKey || null)
@@ -53,7 +53,7 @@ client.on("ready", async () => {
     });
     console.log("✅ Rich Presence is now active!");
   } catch (err) {
-    console.error("❌ Failed to set presence:", err.message);
+    console.error(`❌ Failed to set presence: ${err.message}`);
   }
 });
 
